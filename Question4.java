@@ -18,6 +18,8 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    
+    int i = int.nextInt();
    
     while (i > 0) {
       for (int j = 0; j < i; i++) {
