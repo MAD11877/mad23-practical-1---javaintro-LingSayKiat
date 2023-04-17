@@ -22,10 +22,12 @@ public class Question4
     int i = in.nextInt();
    
     while (i > 0) {
-      for (int j = 0; j < i; i++) {
+      for (int j = 0; j < i; j++) {
         System.out.print("*");
       }
       System.out.println();
+    i--;
     }
+    
   }
 }
