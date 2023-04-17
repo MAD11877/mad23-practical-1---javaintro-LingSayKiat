@@ -19,11 +19,13 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     
-    int i = in.nextInt();
+    int base = in.nextInt();
     
-    while (i-- > 0) {
-      System.out.print('*'*i);
+    for (int i = base, i > 0, i--) {
+      for (int j = 0, i > 0, i++) {
+        System.out.print("*");
+      }
+      System.out.println();
     }
-    
   }
 }
