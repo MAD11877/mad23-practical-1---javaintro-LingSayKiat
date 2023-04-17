@@ -20,7 +20,7 @@ public class Question4
     Scanner in = new Scanner(System.in);
    
     while (i > 0) {
-      for (int j = 0; j < i i++) {
+      for (int j = 0; j < i; i++) {
         System.out.print("*");
       }
       System.out.println();
