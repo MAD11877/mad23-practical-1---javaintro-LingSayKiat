@@ -19,5 +19,11 @@ public class Question4
      
     Scanner in = new Scanner(System.in);
     
+    int i = in.nextInt();
+    
+    while (i-- > 0) {
+      System.out.print('*'*i);
+    }
+    
   }
 }
