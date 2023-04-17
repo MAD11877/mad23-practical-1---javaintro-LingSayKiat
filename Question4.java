@@ -21,8 +21,8 @@ public class Question4
     
     int base = in.nextInt();
     
-    for (int i = base, i > 0, i--) {
-      for (int j = 0, i > 0, i++) {
+    for (int i = base; i > 0; i--) {
+      for (int j = 0; i > 0; i++) {
         System.out.print("*");
       }
       System.out.println();
